@@ -34,8 +34,8 @@ export const useTwibbonCanvas = (): UseTwibbonHookRes => {
     height: number;
     width: number;
   }>({
-    height: 500,
-    width: 500,
+    height: 270,
+    width: 216,
   });
 
   const [fabricCanvas, setFabricCanvas] = useState<fabric.Canvas>();
@@ -184,8 +184,8 @@ export const useTwibbonCanvas = (): UseTwibbonHookRes => {
     });
 
     const dimensions = isMd
-      ? { width: 500, height: 500 }
-      : { width: 300, height: 300 };
+      ? { width: 540, height: 675 }
+      : { width: 216, height: 270 };
     fabricCanvas.setDimensions(dimensions);
 
     return fabricCanvas;
@@ -209,8 +209,8 @@ export const useTwibbonCanvas = (): UseTwibbonHookRes => {
     fabricCanvas?.clear();
 
     const size = isMd
-      ? { height: 500, width: 500 }
-      : { height: 300, width: 300 };
+      ? { height: 675, width: 540 }
+      : { height: 270, width: 216 };
     setRecommendedSize(size);
     fabricCanvas?.setDimensions(size);
 
