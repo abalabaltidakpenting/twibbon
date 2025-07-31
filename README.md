@@ -1,8 +1,8 @@
-# [bikin-twibbon](https://bikin-twibbon.vercel.app)
+# [bikin-twibbon](https://gss-twibbon.vercel.app)
 
 Create and customize your own twibbons effortlessly with our user-friendly web application.
 
-[![Twibbon HUT RI Generator](./public/thumbnail.png)](https://bikin-twibbon.vercel.app)
+[![Twibbon HUT RI Generator](./public/thumbnail.png)](https://gss-twibbon.vercel.app)
 
 ## How it Works
 
@@ -22,7 +22,7 @@ This application allows users to create personalized twibbons for various events
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/irfan-za/bikin-twibbon.git
+   git clone https://github.com/abalabaltidakpenting/twibbon.git
    ```
 2. Navigate into the project directory:
    ```bash
@@ -44,3 +44,4 @@ This application allows users to create personalized twibbons for various events
 ### Attribution
 
 This project is based on work from [here](https://github.com/mokletdev/moklet-twibbon) by [mokletdev].
+And [here](github.com/irfan-za/bikin-twibbon) by [irfan-za].
