@@ -129,7 +129,7 @@ export default function Form({ searchParams }: Readonly<Props>) {
             if (data) {
               downloadURI(
                 data,
-                `Twibbon ${searchParams?.title ?? "Hut RI-79"}.jpg`
+                `Twibbon ${searchParams?.title ?? "GSS"}.jpg`
               );
             }
           }}

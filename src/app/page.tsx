@@ -28,17 +28,19 @@ export default function Home({ searchParams }: Readonly<Props>) {
       <div className="w-full md:w-1/2">
         <h1 className="text-[22px] sm:text-[36px] font-bold leading-[130%] mb-[18px]">
           <span className="text-primary-500 text-[40px] sm:text-[50px]">
-            HUT ke-79
+            Perum Graha Sumbersewu
             <br />
           </span>{" "}
-          Nusantara Baru Indonesia Maju
+          Acara 17-an 2025 - Ayo Ngadeg Bareng Maneh
         </h1>
         <p className="text-neutral-500 leading-[160%]">
-          Mari rayakan HUT RI ke-79 dengan semangat{" "}
-          <span className="text-primary-500">
-            Nusantara Baru Indonesia Maju
-          </span>
-          . Buat Twibbon kamu sekarang dan tunjukkan cinta untuk tanah air!
+          Ekspresikan fotomu pakai Twibbon bertema Ayo Ngadeg Bareng Maneh. Upload ke Status, Short, Story, VT atau Reels kamu.{" "}
+		   </p>
+          <p className="text-neutral-500 leading-[160%]">
+		  Jangan lupa kasih hashtag #GSS17an.
+		  </p>
+		  <p className="text-neutral-500 leading-[160%]">
+          Buat Twibbon kamu sekarang!
         </p>
       </div>
       <RenderForm searchParams={searchParams} />
